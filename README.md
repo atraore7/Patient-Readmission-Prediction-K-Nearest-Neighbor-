@@ -12,6 +12,8 @@ Can K-Nearest Neighbors accurately predict which patients are at higher risk of 
 - 10,000 medical records
 - Features: demographic, clinical, and visit-related variables
 - Target: ReAdmis (0 = not readmitted, 1 = readmitted)
+  
+Cleaned datasets and train/test splits are stored in the data/ folder.
 
 ## Data Preparation:
 - Removed duplicates and handled missing values
@@ -39,3 +41,5 @@ likelihood.
 ## Conclusion:
 The KNN model demonstrates exceptional predictive performance and provides actionable insights
 to support healthcare decision-making and reduce readmission rates.
+
+The complete project report is available in the docs/ folder.
